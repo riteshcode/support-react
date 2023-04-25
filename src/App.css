@@ -1,0 +1,931 @@
+/*
+ * Dashforge Dashboard Pages
+ *
+ * This style is use in dashboard pages.
+ *
+ */
+.bg-df-1 {
+  background-color: #0168fa;
+}
+
+.bg-df-2 {
+  background-color: #69b2f8;
+}
+
+.bg-df-3 {
+  background-color: #d1e6fa;
+}
+
+.bg-litecoin {
+  background-color: #325a98;
+}
+
+.stroke-wd-3 {
+  stroke-width: 3px;
+}
+
+.wd-12 {
+  width: 12px;
+}
+
+.ht-12 {
+  height: 12px;
+}
+.theme-card:hover{
+  /* border: 1px solid #0168fb6b; */
+  background: #0168fa30;
+}
+.active-theme{
+  border: 1px solid #0168fb6b;
+  background: #0168fa30;
+}
+.theme-card-body-a-img{
+  width: 100%;
+}
+.not-found-img{
+  width: 51%;
+  margin: 5% 0;
+}
+
+.chart-one {
+  position: relative;
+  overflow: hidden;
+  margin: 0 15px 15px;
+  padding-top: 80px;
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+.pd-10{
+  padding: 10px;
+}
+
+.info{
+  font-size: 10px;
+    color: #6b6b6b;
+}
+.border1px{
+  border: 1px solid #1b2e4b52;
+
+}
+
+.infoInput{
+  font-size: 10px;
+    color: #a93c3c;
+}
+
+.tags{
+  margin: 9px 7px 0px 2px;
+  padding: 2px;
+}
+
+@media (min-width: 576px) {
+  .chart-one {
+    margin: 0 20px 15px;
+    padding-top: 0;
+    overflow: visible;
+  }
+}
+.chart-one .flot-x-axis {
+  display: none;
+}
+@media (min-width: 576px) {
+  .chart-one .flot-x-axis {
+    display: block;
+  }
+}
+.chart-one .flot-x-axis .flot-tick-label {
+  transform: translateY(2px);
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, "Inter UI", Roboto, sans-serif;
+  letter-spacing: 0.5px;
+  color: #8392a5;
+}
+.chart-one .flot-chart {
+  margin-left: -12px;
+  margin-right: -10px;
+  height: 350px;
+}
+
+.chart-two .flot-x-axis > div {
+  transform: translateY(3px);
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, "Inter UI", Roboto, sans-serif;
+  letter-spacing: 0.5px;
+  color: #8392a5;
+}
+.chart-two .flot-x-axis > div:first-child {
+  margin-left: 15px;
+}
+
+.chart-two .flot-chart {
+  height: 150px;
+  margin-left: -15px;
+  margin-right: -13px;
+}
+@media (min-width: 576px) {
+  .chart-two .flot-chart {
+    height: 210px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .chart-two .flot-chart {
+    height: 155px;
+  }
+}
+
+.chart-three .flot-chart {
+  margin-left: -7px;
+  margin-right: -8px;
+  margin-bottom: -5px;
+}
+
+.chart-four .flot-chart {
+  margin-right: -8px;
+  margin-bottom: -5px;
+}
+
+.chart-five > div {
+  position: relative;
+  margin-left: -10px;
+  height: 225px;
+}
+
+.table-dashboard {
+  font-size: 13px;
+}
+.table-dashboard thead th,
+.table-dashboard tbody td {
+  border-color: #e5e9f2;
+  white-space: nowrap;
+}
+.table-dashboard thead th:first-child,
+.table-dashboard tbody td:first-child {
+  padding-left: 20px;
+}
+.table-dashboard thead th:last-child,
+.table-dashboard tbody td:last-child {
+  padding-right: 20px;
+}
+.table-dashboard thead th {
+  font-family: -apple-system, BlinkMacSystemFont, "Inter UI", Roboto, sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #8392a5;
+}
+
+.table-dashboard-one tbody td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* -------------- dashboard-two.html ----------------- */
+.chart-six {
+  margin-left: -5px;
+  height: 150px;
+}
+@media (min-width: 576px) {
+  .chart-six {
+    height: 200px;
+  }
+}
+@media (min-width: 768px) {
+  .chart-six {
+    height: 250px;
+  }
+}
+@media (min-width: 992px) {
+  .chart-six {
+    height: 300px;
+  }
+}
+
+.chart-seven {
+  height: 150px;
+}
+@media (min-width: 992px) {
+  .chart-seven {
+    height: 205px;
+  }
+}
+@media (min-width: 1200px) {
+  .chart-seven {
+    height: 188px;
+  }
+}
+
+.chart-eight .flot-chart {
+  margin-left: -26px;
+  margin-right: -26px;
+  margin-bottom: -26px;
+  height: 126px;
+}
+@media (min-width: 768px) {
+  .chart-eight .flot-chart {
+    height: 167px;
+  }
+}
+@media (min-width: 992px) {
+  .chart-eight .flot-chart {
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-bottom: -30px;
+    height: 126px;
+  }
+}
+
+.chart-nine .flot-chart {
+  height: 142px;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.chart-nine .flot-y-axis .flot-tick-label,
+.chart-nine .flot-x-axis .flot-tick-label {
+  font-size: 9px;
+  font-family: -apple-system, BlinkMacSystemFont, "Inter UI", Roboto, sans-serif;
+  font-weight: 500;
+  color: #8392a5;
+}
+
+.chart-nine .flot-y-axis .flot-tick-label {
+  margin-left: -10px;
+}
+.chart-nine .flot-y-axis .flot-tick-label:first-child {
+  display: none;
+}
+
+.chart-nine .flot-x-axis .flot-tick-label {
+  transform: translateY(3px);
+}
+.chart-nine .flot-x-axis .flot-tick-label:last-child {
+  margin-left: -5px;
+}
+
+.chart-ten .flot-chart {
+  height: 95px;
+  margin-left: -8px;
+  margin-right: -12px;
+}
+
+.card-dashboard-table .table th,
+.card-dashboard-table .table td {
+  border-color: rgba(72, 94, 144, 0.16);
+  padding: 10px 15px;
+  font-size: 13px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.card-dashboard-table .table thead tr th:first-child {
+  border-left-width: 0;
+}
+
+.card-dashboard-table .table thead tr th:last-child {
+  border-right-width: 0;
+}
+
+.card-dashboard-table .table thead tr:first-child th {
+  border-top-width: 0;
+  font-size: 13px;
+  background-color: #f5f6fa;
+  text-align: left;
+}
+
+.card-dashboard-table .table thead tr:last-child th {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 8px 15px;
+  color: #8392a5;
+}
+
+.card-dashboard-table .table thead tr th:first-child,
+.card-dashboard-table .table tbody tr td:first-child {
+  text-align: left;
+}
+
+.card-dashboard-table .table strong {
+  font-family: -apple-system, BlinkMacSystemFont, "Inter UI", Roboto, sans-serif;
+  font-weight: 500;
+}
+
+/* ---------- dashboard-three.html ------------ */
+.card-crypto .nav-line {
+  border-bottom-width: 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+}
+.card-crypto .nav-line .nav-link + .nav-link {
+  margin-left: 10px;
+}
+.card-crypto .nav-line .nav-link.active::after {
+  height: 3px;
+  bottom: -10px;
+  border-radius: 0.25rem;
+  display: none;
+}
+@media (min-width: 576px) {
+  .card-crypto .nav-line .nav-link.active::after {
+    display: block;
+  }
+}
+
+.chart-eleven .flot-chart {
+  height: 160px;
+}
+@media (min-width: 576px) {
+  .chart-eleven .flot-chart {
+    height: 220px;
+  }
+}
+@media (min-width: 768px) {
+  .chart-eleven .flot-chart {
+    height: 250px;
+  }
+}
+@media (min-width: 992px) {
+  .chart-eleven .flot-chart {
+    height: 284px;
+  }
+}
+
+.chart-eleven .flot-x-axis > div:first-child,
+.chart-eleven .flot-y-axis > div:first-child {
+  display: none;
+}
+
+.crypto {
+  position: relative;
+  padding: 20px;
+}
+
+.crypto-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+.crypto-icon-sm {
+  height: 35px;
+  width: 35px;
+  font-size: 16px;
+}
+
+.crypto-bitcoin-cash {
+  line-height: 0;
+  transform: rotate(-40deg);
+}
+
+.chart-twelve .flot-chart {
+  height: 80px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.list-label {
+  padding: 6px 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Inter UI", Roboto, sans-serif;
+  background-color: #f5f6fa;
+  color: #8392a5;
+  letter-spacing: 1px;
+  border-top: 1px solid #e5e9f2;
+}
+.list-label:first-of-type {
+  border-top-width: 0;
+}
+
+.list-item {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #e5e9f2;
+}
+
+.chart-thirteen {
+  height: 220px;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .chart-thirteen {
+    height: 143px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .chart-thirteen {
+    height: 160px;
+  }
+}
+
+.active-step {
+  background-color: var(--blue) !important;
+  color: #fff !important;
+}
+.active-step > .step-number {
+  color: #f5f5f5;
+  border: 2px solid #fdfdfd;
+}
+
+.chart-fourteen {
+  position: relative;
+  overflow: hidden;
+}
+.chart-fourteen .flot-chart {
+  height: 200px;
+  margin-top: -10px;
+  margin-left: -30px;
+  margin-right: -28px;
+}
+.chart-fourteen .flot-x-axis .flot-tick-label {
+  font-size: 9px;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, "Inter UI", Roboto, sans-serif;
+  color: #8392a5;
+  text-transform: uppercase;
+  letter-spacing: -0.2px;
+}
+
+.chart-fifteen {
+  overflow: hidden;
+}
+.chart-fifteen .flot-chart {
+  height: 200px;
+  margin-right: -18px;
+}
+.chart-fifteen .flot-y-axis .flot-tick-label,
+.chart-fifteen .flot-x-axis .flot-tick-label {
+  font-size: 9px;
+  font-family: -apple-system, BlinkMacSystemFont, "Inter UI", Roboto, sans-serif;
+  font-weight: 500;
+  color: #67788e;
+}
+.chart-fifteen .flot-y-axis .flot-tick-label:first-child {
+  display: none;
+}
+.chart-fifteen .flot-x-axis .flot-tick-label {
+  text-transform: uppercase;
+  font-size: 8px;
+  font-weight: 600;
+}
+
+.chart-sixteen {
+  overflow: hidden;
+}
+.chart-sixteen .flot-chart {
+  height: 180px;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: -8px;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .chart-sixteen .flot-chart {
+    height: 274px;
+  }
+}
+@media (min-width: 1200px) {
+  .chart-sixteen .flot-chart {
+    height: 186px;
+  }
+}
+.chart-sixteen .flot-x-axis .flot-tick-label {
+  font-size: 9px;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, "Inter UI", Roboto, sans-serif;
+  margin-top: -25px;
+  margin-left: -25px;
+}
+.chart-sixteen .flot-x-axis .flot-tick-label:first-child {
+  display: none;
+}
+
+.chart-seventeen {
+  height: 260px;
+}
+
+.table-dashboard-two {
+  width: 100%;
+  font-size: 13px;
+}
+.table-dashboard-two tr + tr td {
+  border-top: 1px solid #e5e9f2;
+}
+.table-dashboard-two td {
+  vertical-align: top;
+  line-height: 1;
+  padding: 8px 0;
+}
+.table-dashboard-two td:first-child {
+  padding-left: 0;
+}
+.table-dashboard-two td:first-child div {
+  opacity: 0.7;
+}
+.table-dashboard-two td:nth-child(3),
+.table-dashboard-two td:last-child {
+  font-family: "Rubik", sans-serif;
+}
+.table-dashboard-two td:last-child {
+  color: #8392a5;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+
+form#edituser .form-group input,
+form#edituser .form-group textarea {
+  width: 100%;
+  float: left;
+  padding: 10px 10px 15px;
+  border-radius: 4px;
+  border: 1px solid #485e9029;
+  color: black;
+}
+form#edituser .form-group label {
+  width: 100%;
+  float: left;
+  font-weight: 500;
+  line-height: 1.25;
+  color: #001737;
+  font-size: 15px;
+}
+form#edituser .form-group {
+  width: 100%;
+  float: left;
+}
+form#edituser h2 {
+  font-size: 17px;
+  margin: 10px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #0168fa;
+  font-weight: bold;
+}
+form#edituser .form-group input#profileimg {
+  background: #cccccc47;
+  color: #fff;
+  width: 150px;
+  font-size: 0px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid #cccccc;
+  cursor: pointer;
+  background-position: center;
+  background-size: cover;
+}
+form#edituser .form-group input#profileimg:after {
+  /* content: "\f067"; */
+  display: block;
+  width: 10px;
+  height: 10px;
+  font-size: 40px;
+  color: #acacac85;
+  font-weight: bold;
+  position: relative;
+  top: 30px;
+  left: 45px;
+  font-family: "Font Awesome 5 Pro";
+  text-shadow: 5px 2px 2px #dfdcdc;
+}
+form#edituser .form-group input[type="submit"] {
+  width: auto;
+  float: right;
+  padding: 10px 15px;
+  margin-left: 15px;
+  background: transparent;
+  border-color: #0168fa;
+  color: #0168fa;
+}
+form#edituser .form-group input#updateform {
+  background: #0168fa;
+  color: #fff;
+}
+div#updated-info .updated-img img {
+  width: 100%;
+  max-width: 200px;
+  margin: 30px 0;
+  display: block;
+  border-radius: 50%;
+  height: 200px;
+}
+div#updated-info h6 {
+  font-size: 13px;
+  margin: 10px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #0168fa;
+  font-weight: bold;
+}
+.updated-name {
+  font-weight: 500;
+  line-height: 1.25;
+  color: #001737;
+  margin: 15px 0;
+  font-size: 20px;
+}
+.updated-title,
+.updated-email {
+  color: #8392a5;
+  font-weight: 500;
+}
+.updated-social-links,
+.updated-skills {
+  width: 100%;
+  float: left;
+  margin: 10px 0;
+  padding: 0px 0;
+}
+.updated-social-links a {
+  display: block;
+  padding: 2px 0;
+  color: #566476;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+.updated-social-links a i {
+  margin-right: 10px;
+}
+.updated-social-links a i {
+  margin-right: 10px;
+  font-size: 18px;
+}
+.updated-social-links span,
+.updated-skills span {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  margin: 14px 0;
+  float: left;
+  width: 100%;
+}
+form#edituser .form-group input[type="checkbox"],
+form#edituser div#skill-check label {
+  float: left;
+  width: auto;
+}
+.OnChnageImageLabel {
+  background: #cccccc47;
+  color: #fff;
+  width: 200px !important;
+  font-size: 0px;
+  height: 200px !important;
+  border-radius: 50%;
+  border: 1px solid #cccccc;
+  cursor: pointer;
+  background-position: center;
+  background-size: cover;
+}
+
+form#edituser div#skill-check label#main-label {
+  width: 100%;
+  float: left;
+}
+form#edituser .form-group input[type="checkbox"] {
+  margin: 3px 5px;
+}
+.documentPreview {
+  background: #b9b8b8;
+  padding: 11px;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+}
+.h6Module {
+  background: white !important;
+  border-width: 1px 1px 0px 1px !important;
+  border-color: lightgrey !important;
+  font-size: 16px;
+}
+.h6bodyIn {
+  background: white !important;
+  border-width: 1px !important;
+  border-color: lightgrey !important;
+  border-top-width: 0px !important;
+}
+.updated-skills li {
+  font-size: 14px;
+  margin: 10px 0;
+}
+.updated-skills li a {
+  display: block;
+  background-color: #fff;
+  border: 1px solid #c0ccda;
+  padding-bottom: 1px;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: #1b2e4b;
+  text-decoration: none;
+  border-radius: 0.25rem;
+}
+.updated-skills span {
+  margin-bottom: 0px;
+  margin-top: 25px;
+}
+.updated-biography {
+  width: 100%;
+  float: left;
+  margin: 10px 0px;
+  font-size: 14px;
+  padding: 10px 0px;
+}
+.updated-biography span {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  margin: 20px 0 5px 0;
+  float: left;
+  width: 100%;
+}
+div#updated-info {
+  margin: 0 10px;
+  padding: 0 10px;
+  border-right: 1px solid #485e9014;
+}
+div#edit-info {
+  padding: 0 15px;
+  margin: 0 10px;
+}
+div#custom-user-list .card-body .row {
+  padding-bottom: 14px;
+}
+div#user-list {
+  margin-right: 20px;
+  max-width: 70%;
+  flex: 0 0 70%;
+}
+div#create-new-user {
+  max-width: 27%;
+  flex: 0 0 27%;
+}
+div#custom-user-list .table th,
+div#custom-user-list .table td {
+  padding: 15px 10px;
+  /* border-right: 1px solid #f1efef; */
+}
+div#custom-user-list .table th:last-child,
+div#custom-user-list .table td:last-child {
+  border-right: 0px;
+}
+/* span.badge.badge-pill {
+  padding: 8px 8px;
+  background: transparent;
+  font-size: 13px;
+  color: #0168fa;
+} */
+.pagination-2 li.page-number.active {
+  background: #0168fa;
+  margin: 0 4px;
+}
+.pagination {
+  width: 100%;
+}
+/* span.badge.badge-pill.badge-success {
+  color: #10b759;
+}
+.btn-primary {
+  color: #0168fa;
+  background-color: transparent;
+  border-color: transparent;
+}
+.btn-danger {
+  color: #dc3545;
+  background-color: transparent;
+  border-color: transparent;
+} */
+#custom-user-list .col-md-2 {
+  max-width: 12%;
+}
+ul.export-drop-menu {
+  display: none;
+}
+label.export-btn:hover ul.export-drop-menu {
+  display: block;
+}
+label.export-btn {
+  cursor: pointer;
+  color: #8392a5;
+}
+label.export-btn:hover ul.export-drop-menu {
+  display: block;
+  position: absolute;
+  right: 0;
+  background: #fff;
+  padding: 20px;
+  width: 200px;
+  transition: max-height 0.3s ease-in;
+  border: 1px solid rgba(72, 94, 144, 0.16);
+  border-radius: 6px;
+  list-style-type: none;
+  text-align: left;
+  font-size: 13px;
+  color: #001737;
+}
+label.export-btn ul.export-drop-menu li a {
+  color: #001737;
+}
+label.export-btn ul.export-drop-menu li {
+  padding: 10px 0;
+  border-bottom: 1px solid #0000000f;
+}
+ul.export-drop-menu li a svg.feather {
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
+}
+span.hint {
+  color: #c0ccda;
+  font-style: italic;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+}
+span.required {
+  font-size: 10px;
+  color: #e0303e;
+  font-weight: bold;
+  position: relative;
+  top: 0px;
+}
+svg.feather.feather-chevron-up,
+svg.feather.feather-chevron-down {
+  width: 16px;
+  height: 16px;
+  margin: 0px 4px;
+}
+svg.feather.feather-chevron-up {
+  color: #e0303e;
+}
+.imagelistItem {
+  height: 100px;
+  width: 100px;
+  border-radius: 1%;
+  cursor: pointer;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  float: left;
+  margin-right: 5px;
+}
+.checkbox-left {
+  width: 50%;
+  float: left;
+}
+
+.permissionHead{
+  position: relative;
+}
+ul.permissionList{
+  list-style-type: none;
+}
+ul.permissionList > li{
+  background: #f1f1f1;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 2px;
+    float: left;
+    border: 1px solid #dddddd;
+    font-size: 12px;
+}
+.custom-btn{
+  padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.form-group{
+  margin-top: 6px;
+}
+.img50{
+  max-width: none;
+  max-height: none;
+  height: 50px;
+    width: 50%;
+}
+
+.modalImage{
+  max-width: none;
+  max-height: none;
+  height: 200px;
+    width: 100%;
+}

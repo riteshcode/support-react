@@ -1,0 +1,291 @@
+form#edituser .form-group input,
+form#edituser .form-group textarea {
+  width: 100%;
+  float: left;
+  padding: 10px 10px 15px;
+  border-radius: 4px;
+  border: 1px solid #485e9029;
+  color: #485e9029;
+}
+form#edituser .form-group label {
+  width: 100%;
+  float: left;
+  font-weight: 500;
+  line-height: 1.25;
+  color: #001737;
+  font-size: 15px;
+}
+form#edituser .form-group {
+  width: 100%;
+  float: left;
+}
+form#edituser h2 {
+  font-size: 17px;
+  margin: 10px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #0168fa;
+  font-weight: bold;
+}
+form#edituser .form-group input#profileimg {
+  background: #cccccc47;
+  color: #fff;
+  width: 150px;
+  font-size: 0px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid #cccccc;
+  cursor: pointer;
+  background-position: center;
+  background-size: cover;
+}
+form#edituser .form-group input#profileimg:after {
+  /* content: "\f067"; */
+  display: block;
+  width: 10px;
+  height: 10px;
+  font-size: 40px;
+  color: #acacac85;
+  font-weight: bold;
+  position: relative;
+  top: 30px;
+  left: 45px;
+  font-family: "Font Awesome 5 Pro";
+  text-shadow: 5px 2px 2px #dfdcdc;
+}
+form#edituser .form-group input[type="submit"] {
+  width: auto;
+  float: right;
+  padding: 10px 15px;
+  margin-left: 15px;
+  background: transparent;
+  border-color: #0168fa;
+  color: #0168fa;
+}
+form#edituser .form-group input#updateform {
+  background: #0168fa;
+  color: #fff;
+}
+div#updated-info .updated-img img {
+  width: 100%;
+  max-width: 200px;
+  margin: 30px 0;
+  display: block;
+  border-radius: 50%;
+  height: 200px;
+}
+div#updated-info h6 {
+  font-size: 13px;
+  margin: 10px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #0168fa;
+  font-weight: bold;
+}
+.updated-name {
+  font-weight: 500;
+  line-height: 1.25;
+  color: #001737;
+  margin: 15px 0;
+  font-size: 20px;
+}
+.updated-title,
+.updated-email {
+  color: #8392a5;
+  font-weight: 500;
+}
+.updated-social-links,
+.updated-skills {
+  width: 100%;
+  float: left;
+  margin: 10px 0;
+  padding: 0px 0;
+}
+.updated-social-links a {
+  display: block;
+  padding: 2px 0;
+  color: #566476;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+.updated-social-links a i {
+  margin-right: 10px;
+}
+.updated-social-links a i {
+  margin-right: 10px;
+  font-size: 18px;
+}
+.updated-social-links span,
+.updated-skills span {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  margin: 14px 0;
+  float: left;
+  width: 100%;
+}
+form#edituser .form-group input[type="checkbox"],
+form#edituser div#skill-check label {
+  float: left;
+  width: auto;
+}
+form#edituser div#skill-check label#main-label {
+  width: 100%;
+  float: left;
+}
+form#edituser .form-group input[type="checkbox"] {
+  margin: 3px 5px;
+}
+.updated-skills li {
+  font-size: 14px;
+  margin: 10px 0;
+}
+.updated-skills li a {
+  display: block;
+  background-color: #fff;
+  border: 1px solid #c0ccda;
+  padding-bottom: 1px;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: #1b2e4b;
+  text-decoration: none;
+  border-radius: 0.25rem;
+}
+.updated-skills span {
+  margin-bottom: 0px;
+  margin-top: 25px;
+}
+.updated-biography {
+  width: 100%;
+  float: left;
+  margin: 10px 0px;
+  font-size: 14px;
+  padding: 10px 0px;
+}
+.updated-biography span {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  margin: 20px 0 5px 0;
+  float: left;
+  width: 100%;
+}
+div#updated-info {
+  margin: 0 10px;
+  padding: 0 10px;
+  border-right: 1px solid #485e9014;
+}
+div#edit-info {
+  padding: 0 15px;
+  margin: 0 10px;
+}
+div#custom-user-list .card-body .row {
+  padding-bottom: 14px;
+}
+div#user-list {
+  margin-right: 20px;
+  max-width: 70%;
+  flex: 0 0 70%;
+}
+div#create-new-user {
+  max-width: 27%;
+  flex: 0 0 27%;
+}
+div#custom-user-list .table th,
+div#custom-user-list .table td {
+  padding: 15px 10px;
+  border-right: 1px solid #f1efef;
+}
+div#custom-user-list .table th:last-child,
+div#custom-user-list .table td:last-child {
+  border-right: 0px;
+}
+span.badge.badge-pill {
+  padding: 8px 8px;
+  background: transparent;
+  font-size: 13px;
+  color: #0168fa;
+}
+.pagination-2 li.page-number.active {
+  background: #0168fa;
+  margin: 0 4px;
+}
+.pagination {
+  width: 100%;
+}
+span.badge.badge-pill.badge-success {
+  color: #10b759;
+}
+.btn-primary {
+  color: #0168fa;
+  background-color: transparent;
+  border-color: transparent;
+}
+.btn-danger {
+  color: #dc3545;
+  background-color: transparent;
+  border-color: transparent;
+}
+#custom-user-list .col-md-2 {
+  max-width: 12%;
+}
+ul.export-drop-menu {
+  display: none;
+}
+label.export-btn:hover ul.export-drop-menu {
+  display: block;
+}
+label.export-btn {
+  cursor: pointer;
+  color: #8392a5;
+}
+label.export-btn:hover ul.export-drop-menu {
+  display: block;
+  position: absolute;
+  right: 0;
+  background: #fff;
+  padding: 20px;
+  width: 200px;
+  transition: max-height 0.3s ease-in;
+  border: 1px solid rgba(72, 94, 144, 0.16);
+  border-radius: 6px;
+  list-style-type: none;
+  text-align: left;
+  font-size: 13px;
+  color: #001737;
+}
+label.export-btn ul.export-drop-menu li a {
+  color: #001737;
+}
+label.export-btn ul.export-drop-menu li {
+  padding: 10px 0;
+  border-bottom: 1px solid #0000000f;
+}
+ul.export-drop-menu li a svg.feather {
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
+}
+span.hint {
+  color: #c0ccda;
+  font-style: italic;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+}
+span.required {
+  font-size: 20px;
+  color: #e0303e;
+  font-weight: bold;
+  position: relative;
+  top: 5px;
+}
+svg.feather.feather-chevron-up,
+svg.feather.feather-chevron-down {
+  width: 16px;
+  height: 16px;
+  margin: 0px 4px;
+}
+svg.feather.feather-chevron-up {
+  color: #e0303e;
+}
